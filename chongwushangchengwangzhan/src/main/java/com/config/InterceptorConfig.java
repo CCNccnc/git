@@ -7,6 +7,10 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 import com.interceptor.AuthorizationInterceptor;
+            
+
+
+
 
 @Configuration
 public class InterceptorConfig extends WebMvcConfigurationSupport {
